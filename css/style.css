@@ -1,0 +1,32 @@
+/*common rules*/
+
+
+
+/*header*/
+.header-top {
+    height: 50px;
+    background-color: #000;
+}
+
+.img-header {
+    width: 5rem;
+}
+
+/*jumbotron*/
+#jumbotron {
+    height: 600px;
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/*main*/
+#it-takes-two {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#game-grid {
+    background-color: #232323;
+}
