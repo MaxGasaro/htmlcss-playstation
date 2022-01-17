@@ -3,6 +3,12 @@
 
 
 /*header*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .header-top {
     height: 50px;
     background-color: #000;
@@ -18,6 +24,9 @@
     background-image: url('../img/jumbo-bg.png');
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-top: 126px;
 }
 
 /*main*/
@@ -37,4 +46,18 @@
 
 #playstation-now {
     background-color: #000040;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(04, 47, 138);
+}
+
+.links-footer {
+    list-style: none;
+}
+
+.links-footer a {
+    color: #fff;
+    text-decoration: none;
 }
